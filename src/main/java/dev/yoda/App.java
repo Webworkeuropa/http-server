@@ -25,6 +25,7 @@ public class App {
 
     public static void main(String[] args) {
         LOGGER.info("Server is starting...");
+        LOGGER.info("PORT = " + PORT);
 
         HttpServer server;
         try {
